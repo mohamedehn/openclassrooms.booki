@@ -1,0 +1,9 @@
+/* Box sizing appliqué à l'ensemble de la page avec border box et content box + police raleway à l'ensemble de la page*/ 
+* {
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
