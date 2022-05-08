@@ -78,13 +78,16 @@ body
 .navheader a
 {
     padding: 14px 18px;
-    border-top: #0065FC solid 1px;
     text-decoration: none;
     display: inline-block;
     color:#0065FC;
     margin-right: 55px;
-    font-size: 14px;
-    
+    font-size: 14px
+}
+
+a:hover
+{
+    border-top: #0065FC solid 1.5px; 
 }
 
 .divfiltres
@@ -92,6 +95,11 @@ body
     display: flex;
     gap: 15px;
     padding-top: 25px;
+}
+
+.blocfiltres
+{
+    display: inline-block;
 }
 
 .filtres
@@ -171,31 +179,108 @@ body
 @media all and (min-width: 1px) and (max-width: 768px)
 
 {
-    .body
-    {
-        width: auto;             
-    }
-
+    
     .header1
     {
         justify-content: baseline; 
         text-align: center;
         display: block;
+        margin-top: -18px;
+    }
+
+    .logobooki
+    {
+        width: 100px;
     }
 
     .header1 .navheader
     {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .navheader a
-{
-    padding: 14px 18px;
-    border-bottom: #0065FC solid 1px;
+    {
+    padding: 10px 9px;
     text-decoration: none;
     display: inline-block;
     color:#0065FC;
-    margin-right: 55px;
-    font-size: 14px;
-}
+    font-size: 16px;
+    }
+
+    a:hover
+    {
+    border-bottom: #0065FC solid 2px; 
+    border-top: none;
+    }
+
+   
+    .header2 .titreprincipal 
+    {
+        text-align: justify;
+        margin-right: 50px;
+        font-size: 22px;
+    }
+
+    .soustitre
+    {
+        font-size: 16px;
+    }
+
+    .blocfiltres
+    {
+        flex-wrap: wrap;
+        margin-right: -55px;
+        padding: 2px;
+    }
+
+    .divfiltres
+    {
+        flex-direction: column;
+    }
+
+    .info
+    {
+        text-align: justify;
+        margin-right: 25px;
+    }
+
+    .economique
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 110px;
+    padding-right: 10px;
+    padding: 2px;
+    }
+
+    .familial
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 150px;
+    padding-right: 10px;
+    padding: 2px;
+    }
+
+    .romantique
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 120px;
+    padding-right: 10px;
+    padding: 2px;
+    }
+
+    .animaux
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 75px;
+    padding-right: 10px;
+    padding: 3px;
+    }
 }
