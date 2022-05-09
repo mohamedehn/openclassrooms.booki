@@ -1,0 +1,129 @@
+/* HEADER : Ci-dessous propriétés CSS pour MOBILE avec Media queries */
+
+@media all and (min-width: 1px) and (max-width: 767px)
+
+{
+    
+    .header1
+    {
+        justify-content: baseline; 
+        text-align: center;
+        display: block;
+        margin-top: -18px;
+    }
+
+    .logobooki
+    {
+        width: 100px;
+    }
+
+    .header1 .navheader
+    {
+        margin-top: 10px;
+        border-bottom: lightgray solid 2px;
+    }
+
+    .navheader a
+    {
+    padding: 10px 9px;
+    text-decoration: none;
+    display: inline-block;
+    color:#0065FC;
+    font-size: 16px;
+    border-top: none;
+    }
+
+    .navheader:hover
+    {
+    border-bottom: #0065FC solid 2px; 
+    border-top: none;
+    }
+
+   
+    .header2 .titreprincipal 
+    {
+        text-align: justify;
+        margin-right: 50px;
+        font-size: 22px;
+    }
+
+    .soustitre
+    {
+        font-size: 16px;
+    }
+
+    .blocfiltres
+    {
+        flex-wrap: wrap;
+        margin-right: -55px;
+        padding: 2px;
+    }
+
+    .divfiltres
+    {
+        flex-direction: column;
+    }
+
+    .info
+    {
+        text-align: justify;
+        margin-right: 25px;
+    }
+
+    .economique
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 110px;
+    padding-right: 10px;
+    padding: 2px;
+    }
+
+    .familial
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 150px;
+    padding-right: 10px;
+    padding: 2px;
+    }
+
+    .romantique
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 120px;
+    padding-right: 10px;
+    padding: 2px;
+    }
+
+    .animaux
+    {
+    border: 2px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 75px;
+    padding-right: 10px;
+    padding: 3px;
+    }
+}
+
+/* HEADER : Ci-dessous propriétés CSS pour Tablette avec Media queries */
+
+@media all and (min-width: 768px) and (max-width: 992px)
+
+{
+    .navheader:hover
+    {
+    border-top: none;
+    border-bottom: #0065FC solid 2px; 
+    }
+
+   .navheader
+   {
+       border-top: none;
+   }
+}
