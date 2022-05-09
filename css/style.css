@@ -74,7 +74,6 @@ body
 
 }
 
-
 .navheader a
 {
     padding: 14px 18px;
@@ -172,4 +171,48 @@ a:hover
     margin-right: 8px;
     padding-right: 5px;
     padding-left: 6px;       
+}
+
+/* Ci-dessous CSS de la barre de recherche */
+
+
+.formulaire
+{
+    display: inline-flex;
+    padding-top: 18px;
+}
+
+.fa-location-dot
+{
+    font-size: 16px;
+    border: 13px solid #f2f2f2 ;
+    height: 10px;
+    border-radius: 14px 1px 1px 10px;   
+}
+
+.search
+{
+    border: none;
+    border: 1px solid #f2f2f2 ;
+    height: 32px;
+    border-radius: 3px;
+    border-left: none;
+    border-right: none;
+    margin-left: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.searchbutton
+{
+    margin-top: 1px;
+    background-color: #0065FC;
+    border-color: #0065FC;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    color: #DEEBFF;
+    border-radius: 1px 10px 10px 1px;
+    height: 30px;
+    width: 110px;
+    font-size: larger;
 }
