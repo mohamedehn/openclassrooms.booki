@@ -1,6 +1,6 @@
 /* HEADER : Ci-dessous propriétés CSS pour MOBILE avec Media queries */
 
-@media all and (min-width: 1px) and (max-width: 767px)
+@media all and (min-width: 1px) and (max-width: 768px)
 
 {
     
@@ -21,25 +21,32 @@
     {
         margin-top: 10px;
         border-bottom: lightgray solid 2px;
+        display: flex;
     }
 
-    .navheader a
+    .header1 .navheader a
     {
-    padding: 10px 9px;
     text-decoration: none;
     display: inline-block;
-    color:#0065FC;
     font-size: 16px;
     border-top: none;
+    padding: 15px 0px;
+    width: 50%;
+    margin-right: 0%;
     }
 
-    .navheader:hover
+    .navheader a:hover
     {
     border-bottom: #0065FC solid 2px; 
+    color:#0065FC;
+    }
+
+    .navheader
+    {
+    
     border-top: none;
     }
 
-   
     .header2 .titreprincipal 
     {
         text-align: justify;
@@ -113,17 +120,8 @@
 
 /* HEADER : Ci-dessous propriétés CSS pour Tablette avec Media queries */
 
-@media all and (min-width: 768px) and (max-width: 992px)
+@media all and (min-width: 769px) and (max-width: 992px)
 
 {
-    .navheader:hover
-    {
-    border-top: none;
-    border-bottom: #0065FC solid 2px; 
-    }
-
-   .navheader
-   {
-       border-top: none;
-   }
+  
 }
