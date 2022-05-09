@@ -15,7 +15,11 @@ body
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 /* Ci-dessous CSS relatif au HEADER de la page principal WEB avec des parties respectives pour le format mobile et tablette*/
+=======
+/* Ci-dessous CSS relatif au header de la page principal WEB*/
+>>>>>>> b8e8ce495ae31c13477335f4ba85ac33235be64e
 
 
 .logobooki 
@@ -78,16 +82,25 @@ body
 .navheader a
 {
     padding: 14px 18px;
+<<<<<<< HEAD
+=======
+    border-top: #0065FC solid 1px;
+>>>>>>> b8e8ce495ae31c13477335f4ba85ac33235be64e
     text-decoration: none;
     display: inline-block;
     color:#0065FC;
     margin-right: 55px;
+<<<<<<< HEAD
     font-size: 14px
 }
 
 a:hover
 {
     border-top: #0065FC solid 1.5px; 
+=======
+    font-size: 14px;
+    
+>>>>>>> b8e8ce495ae31c13477335f4ba85ac33235be64e
 }
 
 .divfiltres
@@ -97,11 +110,14 @@ a:hover
     padding-top: 25px;
 }
 
+<<<<<<< HEAD
 .blocfiltres
 {
     display: inline-block;
 }
 
+=======
+>>>>>>> b8e8ce495ae31c13477335f4ba85ac33235be64e
 .filtres
 {
     padding-top: 11px;
@@ -173,3 +189,40 @@ a:hover
     padding-right: 5px;
     padding-left: 6px;       
 }
+<<<<<<< HEAD
+=======
+
+/* Ci-dessous propriétés CSS pour MOBILE avec Media queries */
+
+@media all and (min-width: 1px) and (max-width: 768px)
+
+{
+    .body
+    {
+        width: auto;             
+    }
+
+    .header1
+    {
+        justify-content: baseline; 
+        text-align: center;
+        display: block;
+    }
+
+    .header1 .navheader
+    {
+        margin-top: 20px;
+    }
+
+    .navheader a
+{
+    padding: 14px 18px;
+    border-bottom: #0065FC solid 1px;
+    text-decoration: none;
+    display: inline-block;
+    color:#0065FC;
+    margin-right: 55px;
+    font-size: 14px;
+}
+}
+>>>>>>> b8e8ce495ae31c13477335f4ba85ac33235be64e
