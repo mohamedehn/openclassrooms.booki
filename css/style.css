@@ -15,7 +15,7 @@ body
     font-size: 14px;
 }
 
-/* Ci-dessous CSS relatif au HEADER de la page principal WEB avec des parties respectives pour le format mobile et tablette*/
+/* Ci-dessous CSS relatif au HEADER de la page principal WEB*/
 
 
 .logobooki 
@@ -89,90 +89,6 @@ a:hover
     border-top: #0065FC solid 1.5px; 
 }
 
-.divfiltres
-{
-    display: flex;
-    gap: 15px;
-    padding-top: 25px;
-}
-
-.blocfiltres
-{
-    display: inline-block;
-}
-
-.filtres
-{
-    padding-top: 11px;
-}
-
-.fa-money-bill-wave
-{
-    color: #0065FC;
-    width: 20px;
-    height: 20px;
-    border: 10px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    text-align: center;
-    padding : 0.40rem
-}
-
-.fa-child-reaching
-{
-    color: #0065FC;
-    width: 20px;
-    height: 20px;
-    border: 10px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    text-align: center;
-    padding : 0.40rem
-}
-
-.fa-heart
-{
-    color: #0065FC;
-    width: 20px;
-    height: 20px;
-    border: 10px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    text-align: center;
-    padding : 0.40rem
-}
-
-.fa-dog
-{
-    color: #0065FC;
-    width: 20px;
-    height: 20px;
-    border: 10px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    text-align: center;
-    padding : 0.40rem
-}
-
-.info
-{
-    padding-top: 25px;
-}
-
-.fa-info
-{
-    color: #0065FC;
-    font-size: 14px;
-    text-align:justify;
-    height: 18px;
-    width: 7px;
-    border: 2px solid #f2f2f2 ;
-    border-radius: 50px;
-    margin-right: 8px;
-    padding-right: 5px;
-    padding-left: 6px;       
-}
-
 /* Ci-dessous CSS de la barre de recherche */
 
 
@@ -235,4 +151,93 @@ a:hover
 .formulaire .loupe
 {
     display : none
+}
+
+
+/* Ci-dessous le CSS pour la partie filtre de la page */
+
+.divfiltres
+{
+    display: flex;
+    gap: 15px;
+    padding-top: 25px;
+}
+
+.divfiltres .blocfiltres
+{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.divfiltres .filtres
+{
+    padding-top: 11px;
+}
+
+.divfiltres .blocfiltres .fa-money-bill-wave
+{
+    color: #0065FC;
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    text-align: center;
+    padding : 0.40rem;
+}
+
+.divfiltres .blocfiltres .fa-child-reaching
+{
+    color: #0065FC;
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    text-align: center;
+    padding : 0.40rem
+}
+
+.divfiltres .blocfiltres .fa-heart
+{
+    color: #0065FC;
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    text-align: center;
+    padding : 0.40rem
+}
+
+.divfiltres .blocfiltres .fa-dog
+{
+    color: #0065FC;
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    text-align: center;
+    padding : 0.40rem
+}
+
+.info
+{
+    padding-top: 25px;
+}
+
+.fa-info
+{
+    color: #0065FC;
+    font-size: 14px;
+    text-align:justify;
+    height: 18px;
+    width: 7px;
+    border: 2px solid #f2f2f2 ;
+    border-radius: 50px;
+    margin-right: 8px;
+    padding-right: 5px;
+    padding-left: 6px;       
 }
