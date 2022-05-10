@@ -182,15 +182,23 @@ a:hover
     padding-top: 18px;
 }
 
-.fa-location-dot
+.formulaire .fa-location-dot
 {
     font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 13px solid #f2f2f2 ;
-    height: 10px;
-    border-radius: 14px 1px 1px 10px;   
+    height: 8.5px;
+    border-radius: 14px 1px 1px 10px; 
+    border-right-width: 20px;
+    border-left-width: 18px;
+    position: absolute right 10px;  
+    position: relative;
+    bottom: 0.5px; left: 3.5px;    
 }
 
-.search
+.formulaire .search
 {
     border: none;
     border: 1px solid #f2f2f2 ;
@@ -201,9 +209,13 @@ a:hover
     margin-left: 1px;
     font-size: 15px;
     font-weight: bold;
+    text-align: center;
+    position: relative;
+    right: 4px;  
+    width: 190px;
 }
 
-.searchbutton
+.formulaire .searchbutton
 {
     margin-top: 1px;
     background-color: #0065FC;
@@ -215,4 +227,12 @@ a:hover
     height: 30px;
     width: 110px;
     font-size: larger;
+    position: relative;
+    right: 10px; bottom: 1px;
+    width: 95px;
+}
+
+.formulaire .loupe
+{
+    display : none
 }

@@ -116,6 +116,31 @@
     padding-right: 10px;
     padding: 3px;
     }
+
+    .formulaire .searchbutton
+    {
+        display: none;
+    }
+
+    .formulaire .search
+    {
+        width: 225px;
+    }
+
+    .formulaire .loupe
+    {
+        border: 2px #f2f2f2;
+        border-radius: 14px;
+        height: 33px;
+        width: 35px;
+        background-color: #0065FC;
+        color: white;
+        position: relative;
+        right: 15px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }
 
 /* HEADER : Ci-dessous propriétés CSS pour Tablette avec Media queries */
