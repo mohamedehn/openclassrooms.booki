@@ -241,3 +241,63 @@ a:hover
     padding-right: 5px;
     padding-left: 6px;       
 }
+
+/* Ci-dessous le CSS pour la partie cartes (hébergements à Marseille + les plus populaires + activités) */
+
+.cartes
+{
+    margin-top: 30px;
+    margin-left: 22px;
+    padding-left: 26px;
+    padding-top: 25px;
+    border: 1px solid lightgray;
+    background-color: rgb(236, 233, 233);
+    border-radius: 10px;
+    width: 1000px;
+    height: 500px;
+    font-size: 16px;
+}
+
+.cannebière 
+{
+    border: 10px solid white;
+    border-width: 5px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.bloc-cannebière .card-cannebière .image-cannebière
+{
+    width: 220px;
+    border-radius: 20px 20px 0px 0px;
+    height: 125px;
+}
+
+.card-body-cannebière
+{
+    background-color: white;
+}
+
+.card-titre-cannebière
+{
+    padding-left: 10px ;
+    font-size: 20px;
+}
+
+.card-prix-cannebière
+{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.card-stars-cannebière
+{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 10px;
+    color: #0065FC;
+}
+
