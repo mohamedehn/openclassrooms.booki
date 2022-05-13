@@ -20,7 +20,7 @@ body
 
 .logobooki 
 {
-    width: 70px;
+    width: 85px;
     padding-left: 40px;
 }
 
@@ -144,7 +144,7 @@ a:hover
     width: 110px;
     font-size: larger;
     position: relative;
-    right: 10px; bottom: 1px;
+    right: 5px; bottom: 1px;
     width: 95px;
 }
 
@@ -170,57 +170,81 @@ a:hover
     justify-content: center;
 }
 
+.blocfiltres:hover
+{
+   transform: scale(1.06);
+}
+
 .divfiltres .filtres
 {
     padding-top: 11px;
+    padding-right: 10px;
+}
+
+.h2filtre
+{
+    padding-left: 30px;
 }
 
 .divfiltres .blocfiltres .fa-money-bill-wave
 {
     color: #0065FC;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     border: 10px;
     background-color: #DEEBFF;
     border-radius: 50%;
     text-align: center;
+    align-items: center;
     padding : 0.40rem;
+    padding: auto;
+    position: relative;
+    right: 3px; bottom: 2px
 }
 
 .divfiltres .blocfiltres .fa-child-reaching
 {
     color: #0065FC;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     border: 10px;
     background-color: #DEEBFF;
     border-radius: 50%;
     text-align: center;
-    padding : 0.40rem
+    padding : 0.40rem;
+    padding: auto;
+    position: relative;
+    right: 3px; bottom: 2px
 }
 
 .divfiltres .blocfiltres .fa-heart
 {
     color: #0065FC;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     border: 10px;
     background-color: #DEEBFF;
     border-radius: 50%;
     text-align: center;
-    padding : 0.40rem
+    padding : 0.40rem;
+    padding: auto;
+    position: relative;
+    right: 3px; bottom: 2px
 }
 
 .divfiltres .blocfiltres .fa-dog
 {
     color: #0065FC;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     border: 10px;
     background-color: #DEEBFF;
     border-radius: 50%;
     text-align: center;
-    padding : 0.40rem
+    padding : 0.40rem;
+    padding: auto;
+    position: relative;
+    right: 3px; bottom: 2px
 }
 
 .info
@@ -258,7 +282,7 @@ a:hover
     font-size: 16px;
 }
 
-.cannebière 
+.cannebière
 {
     border: 10px solid white;
     border-width: 5px;
@@ -273,11 +297,13 @@ a:hover
     width: 220px;
     border-radius: 20px 20px 0px 0px;
     height: 125px;
+    object-fit: cover;
 }
 
 .card-body-cannebière
 {
     background-color: white;
+
 }
 
 .card-titre-cannebière
@@ -301,3 +327,13 @@ a:hover
     color: #0065FC;
 }
 
+.greystar
+{
+    color: lightgray;
+}
+
+.liencarte
+{
+    color: black;
+    text-decoration: none;
+}
