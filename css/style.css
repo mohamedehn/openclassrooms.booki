@@ -17,26 +17,6 @@ body
 
 /* Ci-dessous CSS relatif au HEADER de la page principal WEB*/
 
-
-.logobooki 
-{
-    width: 85px;
-    padding-left: 40px;
-}
-
-
-.titreprincipal
-{
-    font-weight: 700; 
-    font-size: 17px; 
-    margin-bottom: 10px;
-   }
-
-.soustitre
-{
-       font-size: 13px ;
-}
-
 .header1
 {
     display: flex;
@@ -47,19 +27,43 @@ body
     
 }
 
+.header1 .logobooki 
+{
+    width: 85px;
+    padding-left: 40px;
+}
+
+.header1 .navheader a
+{
+    padding: 14px 18px;
+    text-decoration: none;
+    display: inline-block;
+    color:#0065FC;
+    margin-right: 55px;
+    font-size: 14px
+}
+
+.header1 .header-a:hover
+{
+    border-top: #0065FC solid 1.5px; 
+}
+
 .header2
 {
     padding-left: 25px;
     text-align: justify;
 }
 
-.bordure
+.header2 .ligne2 .titreprincipal
 {
- border: 2px solid #f2f2f2 ;
- height: 32px;
- border-radius: 30px;
- margin-right: 10px;
- padding-right: 10px;
+    font-weight: 700; 
+    font-size: 17px; 
+    margin-bottom: 10px;
+   }
+
+.header2 .ligne2 .soustitre
+{
+       font-size: 13px ;
 }
 
 .header2 .divfiltres .titre2
@@ -74,31 +78,16 @@ body
 
 }
 
-.navheader a
-{
-    padding: 14px 18px;
-    text-decoration: none;
-    display: inline-block;
-    color:#0065FC;
-    margin-right: 55px;
-    font-size: 14px
-}
-
-a:hover
-{
-    border-top: #0065FC solid 1.5px; 
-}
-
 /* Ci-dessous CSS de la barre de recherche */
 
 
-.formulaire
+.header2 .formulaire
 {
     display: inline-flex;
     padding-top: 18px;
 }
 
-.formulaire .fa-location-dot
+.header2 .formulaire .fa-location-dot
 {
     font-size: 16px;
     display: flex;
@@ -114,7 +103,7 @@ a:hover
     bottom: 0px; left: 3.5px; 
 }
 
-.formulaire .search
+.header2 .formulaire .search
 {
     border: none;
     border: 1px solid #f2f2f2 ;
@@ -131,7 +120,7 @@ a:hover
     width: 190px;
 }
 
-.formulaire .searchbutton
+.header2 .formulaire .searchbutton
 {
     margin-top: 1px;
     background-color: #0065FC;
@@ -148,7 +137,7 @@ a:hover
     width: 95px;
 }
 
-.formulaire .loupe
+.header2 .formulaire .loupe
 {
     display : none
 }
@@ -170,9 +159,20 @@ a:hover
     justify-content: center;
 }
 
-.blocfiltres:hover
+.divfiltres .blocfiltres .bordure
 {
-   transform: scale(1.06);
+ border: 2px solid #f2f2f2 ;
+ height: 32px;
+ border-radius: 30px;
+ margin-right: 10px;
+ padding-right: 10px;
+}
+
+.blocfiltres .titre2:hover
+{
+   color: #DEEBFF;
+   background-color: #0065FC;
+   cursor: pointer;
 }
 
 .divfiltres .filtres
@@ -181,7 +181,7 @@ a:hover
     padding-right: 10px;
 }
 
-.h2filtre
+.divfiltres .h2filtre
 {
     padding-left: 30px;
 }
@@ -247,12 +247,12 @@ a:hover
     right: 3px; bottom: 2px
 }
 
-.info
+.header2 .info
 {
     padding-top: 25px;
 }
 
-.fa-info
+.header2 .info .fa-info
 {
     color: #0065FC;
     font-size: 14px;
@@ -269,12 +269,12 @@ a:hover
 /* Ci-dessous le CSS pour la partie cartes (hébergements à Marseille + les plus populaires + activités) */
 /*Premièrement la partie cartes hébergement à Marseille */
 
-.logements
+.milieu-page .logements
 {
     display: flex;
 }
 
-.cartes
+.milieu-page .logements .cartes
 {
     margin-top: 30px;
     margin-left: 22px;
@@ -285,10 +285,21 @@ a:hover
     border-radius: 10px;
     width: 1300px;
     height: 500px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-.cartes .hébergements .cannebière
+/*Ci-dessous mise en page des CARD*/
+
+.milieu-page .logements .cartes .hébergements
+{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*Ci-dessous les cards "hébergements à Marseille"*/
+
+.milieu-page .logements .cartes .hébergements .div-card
 {
     border: 10px solid white;
     border-width: 5px;
@@ -298,8 +309,14 @@ a:hover
     margin-top: 20px;
 }
 
+.cartes .hébergements .div-card .liencarte
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
 
-.bloc-cannebière .card-cannebière .image-cannebière
+.milieu-page .logements .cartes .hébergements .div-card .bloc-card .card .image-card
 {
     width: 220px;
     border-radius: 20px 20px 0px 0px;
@@ -307,45 +324,41 @@ a:hover
     object-fit: cover;
 }
 
-.bloc-cannebière .card-cannebière .card-body-cannebière
+.milieu-page .logements .cartes .hébergements .div-card .bloc-card .card .card-body
 {
     background-color: white;
 
 }
 
-.bloc-cannebière .card-body-cannebière .card-titre-cannebière
+.milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-titre
 {
-    padding-left: 10px ;
-    font-size: 20px;
+    padding-left: 5% ;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
-.bloc-cannebière .card-body-cannebière .card-prix-cannebière
+.milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-prix
 {
     font-size: 12px;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-left: 5%;
+    padding-top: 2%;
 }
 
-.bloc-cannebière .card-body-cannebière .card-stars-cannebière
+.milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-stars
 {
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-left: 5%;
+    padding-top: 2%;
     font-size: 10px;
     color: #0065FC;
 }
 
-.bloc-cannebière .card-body-cannebière .greystar
+.milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .greystar
 {
     color: lightgray;
 }
 
-.cartes .hébergements .cannebière .liencarte-cannebière
-{
-    color: black;
-    text-decoration: none;
-}
-
 /* Ci-dessous CSS pour la partie "Les plus populaires" */
+/* Ci-dessous la première CARD Hôtel le Soleil du matin*/
 
 .milieu-page .logements .populaires
 {
@@ -361,20 +374,64 @@ a:hover
     font-size: 16px;
 }
 
+.milieu-page .logements .populaires .titrepopulaire
+{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
 .milieu-page .logements .populaires .hôtelsoleil
 {
     border: 10px solid white;
     border-width: 5px;
-    width: 220px;
+    width: 345px;
     border-radius: 20px;
     background-color: white;
     margin-top: 20px;
 }
 
+.milieu-page .logements .populaires .hôtelsoleil .liencarte-hôtelsoleil
+{
+    text-decoration: none;
+}
+
+.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil
+{
+    display: flex;
+}
+
 .milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .image-hôtelsoleil
 {
-    width: 220px;
-    border-radius: 20px 20px 0px 0px;
+    width: 140px;
+    border-radius: 20px 0px 0px 20px;
     height: 125px;
     object-fit: cover;
 }
+
+
+.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .text-card-hôtelsoleil .card-titre-hôtelsoleil
+{
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: 23px;
+    color: black;
+    font-weight: bolder;
+}
+
+.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .text-card-hôtelsoleil .card-prix-hôtelsoleil
+{
+    padding-left: 15%;
+    font-size: 13px;
+    color: black;
+    padding-top: 5%;
+    font-weight: 500;
+}
+
+.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .text-card-hôtelsoleil .card-stars-hôtelsoleil
+{
+    color: #0065FC;
+    padding-top: 25%;
+    padding-left: 15%;
+    font-size: 10px;
+}
+

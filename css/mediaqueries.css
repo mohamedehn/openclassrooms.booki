@@ -71,10 +71,26 @@
         flex-direction: column;
     }
 
+    .divfiltres .h2filtre
+    {
+        padding-left: 0px;
+    }
+
     .info
     {
         text-align: justify;
         margin-right: 25px;
+        display: inline-block;
+    }
+
+    .info p
+    {
+        display: flex;
+    }
+
+    .info .nb-logements
+    {
+        display: inline-block;
     }
 
     .economique
