@@ -6,9 +6,9 @@
    <meta charset="UTF-8" />
    <!-- Mise en place de la meta name viewport afin de paramétrer l'affichage sur mobile. Réglage auto sur l'échelle  réelle de l'écran + pas de zoom-->
    <meta name="viewport" content="widht=device-width, initial-scale=1.0, user-scalable=no">
-   <link rel="stylesheet" href="ccs/normalize.css" />
-   <link rel="stylesheet" href="css/style.css" />
-   <link rel="stylesheet" href="css/mediaqueries.css" />
+   <link rel="stylesheet" href="ccs/normalize.css"/>
+   <link rel="stylesheet" href="css/style.css"/>
+   <link rel="stylesheet" href="css/mediaqueries.css"/>
 
    <!--Ci-dessous la police Raleway importé via google font + FontAwesome-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,25 +37,20 @@
             <p class="soustitre"> En plein centre ville ou en pleine nature</p>
          </div>
 
-         <div>
+         <div class="barre-recherche">
             <!-- Ici nous indiquerons la fonction "rechercher" du site web-->
             <form method="post" action="traitement.php">
                <p>
-               <div class="formulaire">
-
-                  <div> <i class="fa-solid fa-location-dot"></i> </div>
-                  <div> <input type="search" placeholder="Marseille, France" name="zonederecherche" id="ville"
-                        class="search" /> </div>
-                  <div>
-                     <input type="submit" value="Rechercher" class="searchbutton">
-                     <span class="loupe"> <i class="fa-solid fa-magnifying-glass"></i> </span>
+                  <div class="formulaire">
+                     <div> <i class="fa-solid fa-location-dot"></i> </div>
+                        <div> <input type="search" placeholder="Marseille, France" name="zonederecherche" id="ville" class="search" /> </div>
+                        <div>
+                        <input type="submit" value="Rechercher" class="searchbutton">
+                        <span class="loupe"><i class="fa-solid fa-magnifying-glass"></i></span>
+                     </div>
                   </div>
-
-               </div>
                </p>
-
             </form>
-
          </div>
 
          <div class="divfiltres">
@@ -64,17 +59,16 @@
             </div>
             <div class="blocfiltres">
                <div class="blocfiltres">
-                  <h2 class="titre2 bordure economique"> <i class="fa-solid fa-money-bill-wave"></i>Économique <a
-                        href="eco"></a></h2>
+                  <h2 class="titre2 bordure economique"> <i class="fa-solid fa-money-bill-wave"></i>Économique <a href="eco"></a></h2>
                </div>
                <div class="blocfiltres">
-                  <h2 class="titre2 bordure familial"> <i class="fa-solid fa-child-reaching"></i> Familial </h2>
+                  <h2 class="titre2 bordure familial"> <i class="fa-solid fa-child-reaching"></i>Familial</h2>
                </div>
                <div class="blocfiltres">
-                  <h2 class="titre2 bordure romantique"> <i class="fa-solid fa-heart"></i> Romantique </h2>
+                  <h2 class="titre2 bordure romantique"> <i class="fa-solid fa-heart"></i>Romantique</h2>
                </div>
                <div class="blocfiltres">
-                  <h2 class="titre2 bordure animaux"> <i class="fa-solid fa-dog"></i> Animaux autorisés </h2>
+                  <h2 class="titre2 bordure animaux"><i class="fa-solid fa-dog"></i>Animaux autorisés</h2>
                </div>
             </div>
          </div>

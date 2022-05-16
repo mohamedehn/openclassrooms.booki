@@ -3,7 +3,6 @@
 @media all and (min-width: 1px) and (max-width: 768px)
 
 {
-    
     .header1
     {
         justify-content: baseline; 
@@ -12,7 +11,7 @@
         margin-top: -18px;
     }
 
-    .logobooki
+    .header1 .logobooki
     {
         width: 100px;
     }
@@ -22,9 +21,10 @@
         margin-top: 10px;
         border-bottom: lightgray solid 2px;
         display: flex;
+        border-top: none;
     }
 
-    .header1 .navheader a
+    .header1 .navheader .header-a
     {
     text-decoration: none;
     display: inline-block;
@@ -35,60 +35,59 @@
     margin-right: 0%;
     }
 
-    .navheader a:hover
+    .header1 .navheader .header-a:hover
     {
     border-bottom: #0065FC solid 2px; 
     color:#0065FC;
     }
 
-    .navheader
-    {
-    
-    border-top: none;
-    }
-
-    .header2 .titreprincipal 
+    .header2 .ligne2 .titreprincipal 
     {
         text-align: justify;
         margin-right: 50px;
         font-size: 22px;
     }
 
-    .soustitre
+    .header2 .ligne2 .soustitre
     {
         font-size: 16px;
     }
 
-    .blocfiltres
+    .header2 .divfiltres .blocfiltres
     {
         flex-wrap: wrap;
         margin-right: -55px;
         padding: 2px;
     }
 
-    .divfiltres
+    .header2 .divfiltres
     {
         flex-direction: column;
     }
 
-    .divfiltres .h2filtre
+    .header2 .divfiltres .blocfiltres
+    {
+        flex-direction: column;
+    }
+
+    .header2 .divfiltres .h2filtre
     {
         padding-left: 0px;
     }
 
-    .info
+    .header2 .divfiltres .info
     {
         text-align: justify;
         margin-right: 25px;
         display: inline-block;
     }
 
-    .info p
+    .header2 .divfiltres .info p
     {
         display: flex;
     }
 
-    .info .nb-logements
+    .header2 .divfiltres .info .nb-logements
     {
         display: inline-block;
     }
@@ -143,7 +142,7 @@
         width: 225px;
     }
 
-    .formulaire .loupe
+    .barre-recherche .formulaire .loupe
     {
         border: 2px #f2f2f2;
         border-radius: 14px;
@@ -156,6 +155,20 @@
         align-items: center;
         justify-content: center;
         display: flex;
+    }
+
+    /*Ci-dessous la partie main*/
+
+    .milieu-page .logements
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .populaire
+    {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 

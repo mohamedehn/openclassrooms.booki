@@ -6,7 +6,6 @@
     box-sizing: content-box;
     margin: 0px;
     padding: 0px;
-    
 }
 
 body
@@ -59,7 +58,7 @@ body
     font-weight: 700; 
     font-size: 17px; 
     margin-bottom: 10px;
-   }
+}
 
 .header2 .ligne2 .soustitre
 {
@@ -69,25 +68,28 @@ body
 .header2 .divfiltres .titre2
 {
     font-size: 15px;
-
 }
 
 .header2 .divfiltres .titre2 i
 {
     font-size: 20px;
-
 }
 
 /* Ci-dessous CSS de la barre de recherche */
 
-
-.header2 .formulaire
+.header2 .barre-recherche .formulaire
 {
     display: inline-flex;
     padding-top: 18px;
 }
 
-.header2 .formulaire .fa-location-dot
+.header2 .barre-recherche .formulaire ::placeholder
+{
+    font-weight: bold;
+    color: black;
+}
+
+.header2 .barre-recherche .formulaire .fa-location-dot
 {
     font-size: 16px;
     display: flex;
@@ -103,7 +105,7 @@ body
     bottom: 0px; left: 3.5px; 
 }
 
-.header2 .formulaire .search
+.header2 .barre-recherche .formulaire .search
 {
     border: none;
     border: 1px solid #f2f2f2 ;
@@ -120,7 +122,7 @@ body
     width: 190px;
 }
 
-.header2 .formulaire .searchbutton
+.header2 .barre-recherche .formulaire .searchbutton
 {
     margin-top: 1px;
     background-color: #0065FC;
@@ -137,29 +139,29 @@ body
     width: 95px;
 }
 
-.header2 .formulaire .loupe
+.header2 .barre-recherche .formulaire .loupe
 {
-    display : none
+    display : none;
 }
 
 
 /* Ci-dessous le CSS pour la partie filtre de la page */
 
-.divfiltres
+.header2 .divfiltres
 {
     display: flex;
     gap: 15px;
     padding-top: 25px;
 }
 
-.divfiltres .blocfiltres
+.header2 .divfiltres .blocfiltres
 {
     display: inline-block;
     align-items: center;
     justify-content: center;
 }
 
-.divfiltres .blocfiltres .bordure
+.header2 .divfiltres .blocfiltres .bordure
 {
  border: 2px solid #f2f2f2 ;
  height: 32px;
@@ -168,25 +170,25 @@ body
  padding-right: 10px;
 }
 
-.blocfiltres .titre2:hover
+.header2 .divfiltres .blocfiltres .titre2:hover
 {
    color: #DEEBFF;
    background-color: #0065FC;
    cursor: pointer;
 }
 
-.divfiltres .filtres
+.header2 .divfiltres .filtres
 {
     padding-top: 11px;
     padding-right: 10px;
 }
 
-.divfiltres .h2filtre
+.header2 .divfiltres .h2filtre
 {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
-.divfiltres .blocfiltres .fa-money-bill-wave
+.header2 .divfiltres .blocfiltres .fa-money-bill-wave
 {
     color: #0065FC;
     width: 23px;
@@ -202,7 +204,7 @@ body
     right: 3px; bottom: 2px
 }
 
-.divfiltres .blocfiltres .fa-child-reaching
+.header2 .divfiltres .blocfiltres .fa-child-reaching
 {
     color: #0065FC;
     width: 23px;
@@ -217,7 +219,7 @@ body
     right: 3px; bottom: 2px
 }
 
-.divfiltres .blocfiltres .fa-heart
+.header2 .divfiltres .blocfiltres .fa-heart
 {
     color: #0065FC;
     width: 23px;
@@ -232,7 +234,7 @@ body
     right: 3px; bottom: 2px
 }
 
-.divfiltres .blocfiltres .fa-dog
+.header2 .divfiltres .blocfiltres .fa-dog
 {
     color: #0065FC;
     width: 23px;
@@ -250,6 +252,7 @@ body
 .header2 .info
 {
     padding-top: 25px;
+    padding-left: 15px;
 }
 
 .header2 .info .fa-info
@@ -284,7 +287,7 @@ body
     background-color: rgb(236, 233, 233);
     border-radius: 10px;
     width: 1300px;
-    height: 500px;
+    height: 600px;
     font-size: 18px;
 }
 
@@ -297,16 +300,22 @@ body
     flex-wrap: wrap;
 }
 
+.milieu-page .logements .cartes .titrehébergements
+{
+    padding-left: 2%;
+}
+
 /*Ci-dessous les cards "hébergements à Marseille"*/
 
 .milieu-page .logements .cartes .hébergements .div-card
 {
     border: 10px solid white;
-    border-width: 5px;
-    width: 220px;
+    border-width: 25px;
+    width: 290px;
     border-radius: 20px;
     background-color: white;
     margin-top: 20px;
+    height: 210px;
 }
 
 .cartes .hébergements .div-card .liencarte
@@ -318,21 +327,21 @@ body
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card .image-card
 {
-    width: 220px;
+    width: 320px;
     border-radius: 20px 20px 0px 0px;
-    height: 125px;
+    height: 175px;
     object-fit: cover;
+    position: relative;
+    bottom: 15px ; right:15px;
 }
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card .card-body
 {
     background-color: white;
-
 }
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-titre
 {
-    padding-left: 5% ;
     font-size: 22px;
     font-weight: bolder;
 }
@@ -340,13 +349,11 @@ body
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-prix
 {
     font-size: 12px;
-    padding-left: 5%;
     padding-top: 2%;
 }
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-stars
 {
-    padding-left: 5%;
     padding-top: 2%;
     font-size: 10px;
     color: #0065FC;
