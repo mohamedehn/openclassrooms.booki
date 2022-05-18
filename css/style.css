@@ -280,14 +280,14 @@ body
 .milieu-page .logements .cartes
 {
     margin-top: 30px;
-    margin-left: 22px;
+    margin-left: 35px;
     padding-left: 26px;
     padding-top: 25px;
     border: 1px solid lightgray;
     background-color: rgb(236, 233, 233);
     border-radius: 10px;
-    width: 1300px;
-    height: 600px;
+    width: 1200px;
+    height: 650px;
     font-size: 18px;
 }
 
@@ -302,7 +302,7 @@ body
 
 .milieu-page .logements .cartes .titrehébergements
 {
-    padding-left: 2%;
+    padding-left: 3%;
 }
 
 /*Ci-dessous les cards "hébergements à Marseille"*/
@@ -311,11 +311,11 @@ body
 {
     border: 10px solid white;
     border-width: 25px;
-    width: 290px;
+    width: 280px;
     border-radius: 20px;
     background-color: white;
     margin-top: 20px;
-    height: 210px;
+    height: 200px;
 }
 
 .cartes .hébergements .div-card .liencarte
@@ -327,9 +327,9 @@ body
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card .image-card
 {
-    width: 320px;
+    width: 310px;
     border-radius: 20px 20px 0px 0px;
-    height: 175px;
+    height: 160px;
     object-fit: cover;
     position: relative;
     bottom: 15px ; right:15px;
@@ -338,6 +338,11 @@ body
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card .card-body
 {
     background-color: white;
+}
+
+.card-body:hover
+{
+    color: #0065FC;
 }
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-titre
@@ -364,8 +369,23 @@ body
     color: lightgray;
 }
 
+/* Lien afficher plus ci-dessous*/
+
+.milieu-page .logements .cartes .afficher-plus
+{
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+.milieu-page .logements .cartes .afficher-plus .lien-plus
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 /* Ci-dessous CSS pour la partie "Les plus populaires" */
-/* Ci-dessous la première CARD Hôtel le Soleil du matin*/
 
 .milieu-page .logements .populaires
 {
@@ -381,13 +401,23 @@ body
     font-size: 16px;
 }
 
-.milieu-page .logements .populaires .titrepopulaire
+.milieu-page .logements .populaires .start-populaire 
+{
+    display: flex;
+}
+
+.milieu-page .logements .populaires .start-populaire .titrepopulaire
 {
     font-weight: bolder;
     font-size: 18px;
 }
 
-.milieu-page .logements .populaires .hôtelsoleil
+.milieu-page .logements .populaires .start-populaire .fa-solid
+{
+    padding-left: 170px;
+}
+
+.milieu-page .logements .populaires .logements-populaires
 {
     border: 10px solid white;
     border-width: 5px;
@@ -397,17 +427,17 @@ body
     margin-top: 20px;
 }
 
-.milieu-page .logements .populaires .hôtelsoleil .liencarte-hôtelsoleil
+.milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires
 {
     text-decoration: none;
 }
 
-.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil
+.milieu-page .logements .populaires .logements-populaires .card-populaires .bloc-card-populaires
 {
     display: flex;
 }
 
-.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .image-hôtelsoleil
+.milieu-page .logements .populaires .logements-populaires .card-populaires .bloc-card-populaires .card-populaires .image-populaires
 {
     width: 140px;
     border-radius: 20px 0px 0px 20px;
@@ -416,7 +446,7 @@ body
 }
 
 
-.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .text-card-hôtelsoleil .card-titre-hôtelsoleil
+.milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-titre-populaires
 {
     padding-left: 15%;
     padding-top: 5%;
@@ -425,7 +455,7 @@ body
     font-weight: bolder;
 }
 
-.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .text-card-hôtelsoleil .card-prix-hôtelsoleil
+.milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-prix-populaires
 {
     padding-left: 15%;
     font-size: 13px;
@@ -434,7 +464,7 @@ body
     font-weight: 500;
 }
 
-.milieu-page .logements .populaires .hôtelsoleil .bloc-hôtelsoleil .text-card-hôtelsoleil .card-stars-hôtelsoleil
+.milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-stars-populaires
 {
     color: #0065FC;
     padding-top: 25%;
