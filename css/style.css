@@ -347,20 +347,20 @@ body
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-titre
 {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-prix
 {
-    font-size: 12px;
-    padding-top: 2%;
+    font-size: 15px;
+    padding-top: 1%;
 }
 
 .milieu-page .logements .cartes .hébergements .div-card .bloc-card .card-body .card-stars
 {
-    padding-top: 2%;
-    font-size: 10px;
+    padding-top: 1%;
+    font-size: 12px;
     color: #0065FC;
 }
 
@@ -397,7 +397,7 @@ body
     background-color: rgb(236, 233, 233);
     border-radius: 10px;
     width: 400px;
-    height: 500px;
+    height: 650px;
     font-size: 16px;
 }
 
@@ -419,12 +419,9 @@ body
 
 .milieu-page .logements .populaires .logements-populaires
 {
-    border: 10px solid white;
-    border-width: 5px;
-    width: 345px;
-    border-radius: 20px;
-    background-color: white;
-    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires
@@ -432,33 +429,40 @@ body
     text-decoration: none;
 }
 
-.milieu-page .logements .populaires .logements-populaires .card-populaires .bloc-card-populaires
+.milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires .bloc-card-populaires
 {
     display: flex;
+    width: 360px; 
+    height: 165px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .milieu-page .logements .populaires .logements-populaires .card-populaires .bloc-card-populaires .card-populaires .image-populaires
 {
     width: 140px;
+    padding-top: 3.5%;
+    padding-left: 3.5%;
     border-radius: 20px 0px 0px 20px;
-    height: 125px;
+    height: 155px;
     object-fit: cover;
 }
 
-
 .milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-titre-populaires
 {
-    padding-left: 15%;
-    padding-top: 5%;
-    font-size: 23px;
+    padding-left: 10%;
+    padding-top: 8%;
+    font-size: 25px;
     color: black;
     font-weight: bolder;
 }
 
 .milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-prix-populaires
 {
-    padding-left: 15%;
-    font-size: 13px;
+    padding-left: 10%;
+    font-size: 15px;
     color: black;
     padding-top: 5%;
     font-weight: 500;
@@ -467,8 +471,8 @@ body
 .milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-stars-populaires
 {
     color: #0065FC;
-    padding-top: 25%;
-    padding-left: 15%;
-    font-size: 10px;
+    padding-top: 32%;
+    padding-left: 10%;
+    font-size: 12px;
 }
 
