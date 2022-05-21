@@ -65,9 +65,10 @@
         flex-direction: column;
     }
 
-    .header2 .divfiltres .blocfiltres
+    .header2 .divfiltres .all-filtres .blocfiltres
     {
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .header2 .divfiltres .h2filtre
@@ -75,23 +76,17 @@
         padding-left: 0px;
     }
 
-    .header2 .divfiltres .info
+    .header2 .info
     {
         text-align: justify;
-        margin-right: 25px;
         display: inline-block;
     }
 
-    .header2 .divfiltres .info p
+    .header2 .info p
     {
         display: flex;
     }
-
-    .header2 .divfiltres .info .nb-logements
-    {
-        display: inline-block;
-    }
-
+   
     .economique
     {
     border: 2px solid #f2f2f2 ;
@@ -132,17 +127,17 @@
     padding: 3px;
     }
 
-    .formulaire .searchbutton
+    .header2 .barre-recherche .formulaire .searchbutton
     {
         display: none;
     }
 
-    .formulaire .search
+    .header2 .barre-recherche .formulaire .search
     {
         width: 225px;
     }
 
-    .barre-recherche .formulaire .loupe
+    .header2 .barre-recherche .formulaire .loupe
     {
         border: 2px #f2f2f2;
         border-radius: 14px;
@@ -159,16 +154,62 @@
 
     /*Ci-dessous la partie main*/
 
+    .milieu-page
+    {
+        margin: auto;
+        width: auto;
+        height: auto;
+        padding: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
     .milieu-page .logements
     {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: auto;
+        margin: auto;
+        height: auto;
+        padding: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
     }
 
-    .populaire
+    .milieu-page .logements .cartes
     {
-        display: flex;
-        flex-wrap: wrap;
+        margin:auto;
+        padding: auto;
+        width: auto;
+        height: auto;
+        background-color: white;
+        border: white;
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .milieu-page .logements .populaires
+    {
+        margin:auto;
+        padding: auto;
+        width: auto;
+        height: 655px;
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .milieu-page .logements .populaires .start-populaire
+    {
+        margin-top: 20px;
+        margin-left: 10px;
     }
 }
 
