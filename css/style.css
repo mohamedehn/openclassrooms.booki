@@ -440,7 +440,7 @@ body
     margin-top: 10%;
 }
 
-.milieu-page .logements .populaires .logements-populaires .card-populaires .bloc-card-populaires .card-populaires .image-populaires
+.milieu-page .logements .populaires .logements-populaires .card-populaires .bloc-card-populaires .img-populaires .image-populaires
 {
     width: 140px;
     padding-top: 3.5%;
@@ -478,3 +478,74 @@ body
 
 /* Ci-dessous CSS pour la partie activités à Marseille*/
 
+/* En premier nous aurons la DIV Vieux-port ci-dessous*/
+
+.milieu-page .activités-marseille .activités
+{
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.milieu-page .activités-marseille .activités .titre-activités
+{
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.milieu-page .activités-marseille .activités .div-activités
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .vieux-port
+{
+    height: 570px;
+    width: 420px;
+    border: 1px lightgray solid;
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+    box-shadow: rgb(243, 240, 240) 1px 10px 15px 1px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port
+{
+    text-decoration: none;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card
+{
+    height: 500px;
+    width: 420px;
+    object-fit: cover;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .card-body
+{
+    height: 60px; 
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .card-body .card-titre
+{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; top: 20px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .image-card
+{
+    height: 500px;
+    width: 420px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+/* Ci-dessous la seconde div intitulé colonne1 et qui englobera les "Îles du Frioul" et "Fort de Pomègues"*/
+.milieu-page .activités-marseille .activités .div-activités .colonne1
+{
+    
+}

@@ -3,6 +3,7 @@
 @media all and (min-width: 1px) and (max-width: 768px)
 
 {
+    /* Ci-dessous le header : logo, barre de navigation et titres*/
     .header1
     {
         justify-content: baseline; 
@@ -53,6 +54,7 @@
         font-size: 16px;
     }
 
+    /* Ci-dessous le partie filtres + "i"*/    
     .header2 .divfiltres .blocfiltres
     {
         flex-wrap: wrap;
@@ -69,6 +71,8 @@
     {
         flex-direction: column;
         flex-wrap: wrap;
+        width: auto;
+        margin: auto;
     }
 
     .header2 .divfiltres .h2filtre
@@ -80,6 +84,7 @@
     {
         text-align: justify;
         display: inline-block;
+        margin-right: 25px;
     }
 
     .header2 .info p
@@ -127,6 +132,7 @@
     padding: 3px;
     }
 
+    /*Ci-dessous le formulaire de recherche*/
     .header2 .barre-recherche .formulaire .searchbutton
     {
         display: none;
@@ -194,6 +200,7 @@
         padding-top: 0px;
     }
 
+    /*Ci-dessous partie "les plus populaires"*/
     .milieu-page .logements .populaires
     {
         margin:auto;
@@ -209,6 +216,26 @@
     .milieu-page .logements .populaires .start-populaire
     {
         margin-top: 20px;
+        text-align: justify;
+    }
+
+    .milieu-page .logements .populaires .start-populaire .titrepopulaire
+    {
+        display: inline-flex;
+        margin-left: 10px;
+        font-size: 17px;
+        font-weight: bolder;
+    }
+
+    .milieu-page .logements .populaires .start-populaire i 
+    {
+        position: relative;
+        right: 10px;
+    }
+
+    .milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires .bloc-card-populaires
+    {
+        width: 330px;
         margin-left: 10px;
     }
 }
