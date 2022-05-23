@@ -26,6 +26,12 @@ body
     
 }
 
+.max-width
+{
+    max-width: 1500px;
+    margin: auto;
+}
+
 .header1 .logobooki 
 {
     width: 85px;
@@ -275,20 +281,20 @@ body
 .milieu-page .logements
 {
     display: flex;
+    padding-top: 30px;
 }
 
 .milieu-page .logements .cartes
 {
-    margin-top: 30px;
-    margin-left: 35px;
-    padding-left: 26px;
-    padding-top: 25px;
     border: 1px solid lightgray;
     background-color: rgb(236, 233, 233);
     border-radius: 10px;
-    width: 1200px;
-    height: 650px;
+    width: 75%;
+    height: 720px;
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 /*Ci-dessous mise en page des CARD*/
@@ -298,11 +304,14 @@ body
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    height: 560px;
+    flex-basis: 98%;
 }
 
 .milieu-page .logements .cartes .titrehébergements
 {
-    padding-left: 3%;
+    flex-basis: 95%;
+    padding-top: 2%;
 }
 
 /*Ci-dessous les cards "hébergements à Marseille"*/
@@ -311,10 +320,9 @@ body
 {
     border: 10px solid white;
     border-width: 25px;
-    width: 280px;
+    max-width: 280px;
     border-radius: 20px;
     background-color: white;
-    margin-top: 20px;
     height: 200px;
 }
 
@@ -373,8 +381,8 @@ body
 
 .milieu-page .logements .cartes .afficher-plus
 {
-    padding-top: 50px;
-    padding-left: 25px;
+    flex-basis: 95%;
+    padding-bottom: 2%;
 }
 
 .milieu-page .logements .cartes .afficher-plus .lien-plus
@@ -389,39 +397,41 @@ body
 
 .milieu-page .logements .populaires
 {
-    margin-top: 30px;
-    margin-left: 100px;
-    padding-left: 26px;
-    padding-top: 25px;
+    margin-left: 55px;
     border: 1px solid lightgray;
     background-color: rgb(236, 233, 233);
     border-radius: 10px;
-    width: 400px;
-    height: 650px;
+    width: calc(25% - 55px);
+    height: 720px;
     font-size: 16px;
 }
 
 .milieu-page .logements .populaires .start-populaire 
 {
     display: flex;
+    width: 90%;
+    margin: auto;
 }
 
 .milieu-page .logements .populaires .start-populaire .titrepopulaire
 {
     font-weight: bolder;
     font-size: 18px;
+    flex-basis: 94%;
+    padding-top: 7%;
 }
 
 .milieu-page .logements .populaires .start-populaire .fa-solid
 {
-    padding-left: 170px;
+    
 }
 
 .milieu-page .logements .populaires .logements-populaires
 {
-    display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 90%;
+    margin: auto;
 }
 
 .milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires
@@ -432,8 +442,6 @@ body
 .milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires .bloc-card-populaires
 {
     display: flex;
-    width: 360px; 
-    height: 165px;
     border-radius: 20px;
     background-color: white;
     margin-top: 5%;
@@ -544,8 +552,51 @@ body
     object-fit: cover;
 }
 
-/* Ci-dessous la seconde div intitulé colonne1 et qui englobera les "Îles du Frioul" et "Fort de Pomègues"*/
+/* Ci-dessous la seconde div intitulé colonne1 et qui englobera les "Îles du Frioul" et "Fort de Pomègues"
+1) Fort de Pomègues*/
 .milieu-page .activités-marseille .activités .div-activités .colonne1
 {
-    
+    height: 500px;
+    width: 420px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues
+{
+    height: 250px;
+    width: 420px;
+    border: 1px lightgray solid;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(243, 240, 240) 1px 10px 15px 1px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .image-card
+{
+    height: 250px;
+    width: 420px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .card-body
+{
+    height: 60px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .card-body .card-titre
+{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; top: 20px;
+}
+
+/* Îles du Frioul*/
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul
+{
+    padding-top: 150px;
 }
