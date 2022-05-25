@@ -42,6 +42,11 @@
     color:#0065FC;
     }
 
+    .header2
+    {
+        margin-left: 10px;
+    }
+
     .header2 .ligne2 .titreprincipal 
     {
         text-align: justify;
@@ -201,28 +206,42 @@
     }
 
     /*Ci-dessous partie "les plus populaires"*/
+
+    .milieu-page .logements .cartes .titrehébergements
+    {
+        width: 90%;
+        flex-basis: auto;
+    }
+
+    .milieu-page .logements .cartes .hébergements
+    {
+        height: auto;
+    }
+
+    .milieu-page .logements .cartes .afficher-plus
+    {
+        flex-basis: auto;
+        width: 90%;
+        padding-top: 10%;
+    }
+
     .milieu-page .logements .populaires
     {
         margin:auto;
         padding: auto;
-        width: auto;
+        width: 100%;
         height: 655px;
         margin-top: 30px;
-        margin-left: 0px;
-        padding-left: 0px;
-        padding-top: 0px;
     }
 
     .milieu-page .logements .populaires .start-populaire
     {
-        margin-top: 20px;
         text-align: justify;
     }
 
     .milieu-page .logements .populaires .start-populaire .titrepopulaire
     {
         display: inline-flex;
-        margin-left: 10px;
         font-size: 17px;
         font-weight: bolder;
     }
@@ -233,10 +252,27 @@
         right: 10px;
     }
 
+    .milieu-page .logements .populaires .logements-populaires
+    {
+        width: 90%;
+    }
+
     .milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires .bloc-card-populaires
     {
-        width: 330px;
-        margin-left: 10px;
+        width: auto;
+    }
+
+    /*Ci-dessous CSS pour la partie Activités à Marseille*/
+    .milieu-page .activités-marseille .activités
+    {
+        margin-left: auto;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités
+    {
+        flex-direction: column;
+        display: block;
+        width: auto;
     }
 }
 
