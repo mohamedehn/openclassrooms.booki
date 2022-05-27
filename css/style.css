@@ -505,7 +505,7 @@ body
 .milieu-page .activités-marseille .activités .div-activités .vieux-port
 {
     height: 570px;
-    width: 420px;
+    width: 390px;
     border: 1px lightgray solid;
     border-radius: 20px 20px 20px 20px;
     object-fit: cover;
@@ -542,7 +542,7 @@ body
 .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .image-card
 {
     height: 500px;
-    width: 420px;
+    width: 390px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
@@ -552,37 +552,114 @@ body
 .milieu-page .activités-marseille .activités .div-activités .colonne1
 {
     height: 500px;
-    width: 420px;
+    width: 390px;
     justify-content: space-around;
     align-items: center;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
-.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .a
 {
-    height: 250px;
-    width: 420px;
+    text-decoration: none;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card
+{
     border: 1px lightgray solid;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgb(243, 240, 240) 1px 10px 15px 1px;
-}
+} 
 
 .milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .image-card
 {
-    height: 250px;
-    width: 420px;
+    height: 240px;
+    width: 390px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 .milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .card-body
 {
-    height: 60px;
+    height: 50px;
     font-size: 27px;
     font-weight: bolder;
 }
 
 .milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .card-body .card-titre
+{
+    color: black;
+    position: relative;
+    left: 20px; top: 20px;
+}
+
+/* Îles du Frioul*/
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .a
+{
+    text-decoration: none;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card
+{
+    border: 1px lightgray solid;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(243, 240, 240) 1px 10px 15px 1px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card .image-card
+{
+    height: 200px;
+    width: 390px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card .card-body
+{
+    height: 50px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card .card-body .card-titre
+{
+    color: black;
+    position: relative;
+    left: 20px; top: 20px;
+}
+
+/* Ci-dessous CSS pour le Parc National des Calanques*/
+
+.milieu-page .activités-marseille .activités .div-activités .calanques
+{
+    height: 570px;
+    width: 390px;
+    border: 1px lightgray solid;
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+    box-shadow: rgb(243, 240, 240) 1px 10px 15px 1px;
+    margin-left: 40px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques
+{
+    text-decoration: none;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card
+{
+    height: 500px;
+    width: 420px;
+    object-fit: cover;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card .card-body
+{
+    height: 60px; 
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card .card-body .card-titre
 {
     text-decoration: none;
     color: black;
@@ -590,8 +667,10 @@ body
     left: 20px; top: 20px;
 }
 
-/* Îles du Frioul*/
-.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul
+.milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card .image-card
 {
-    padding-top: 150px;
+    height: 500px;
+    width: 390px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
