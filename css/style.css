@@ -463,6 +463,11 @@ body
     font-weight: bolder;
 }
 
+.milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-titre-populaires:hover
+{
+    color: #0065FC;
+}
+
 .milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-prix-populaires
 {
     padding-left: 10%;
@@ -500,12 +505,15 @@ body
 {
     display: flex;
     margin-top: 20px;
+    justify-content: space-between;
 }
+
+/*Ci-dessous CSS Vieux Port (Activités à Marseille)*/
 
 .milieu-page .activités-marseille .activités .div-activités .vieux-port
 {
     height: 570px;
-    width: 390px;
+    width: 335px;
     border: 1px lightgray solid;
     border-radius: 20px 20px 20px 20px;
     object-fit: cover;
@@ -520,7 +528,7 @@ body
 .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card
 {
     height: 500px;
-    width: 420px;
+    width: 335px;
     object-fit: cover;
 }
 
@@ -539,10 +547,15 @@ body
     left: 20px; top: 20px;
 }
 
+.milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .card-body .card-titre:hover
+{
+    color: #0065FC;
+}
+
 .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .image-card
 {
     height: 500px;
-    width: 390px;
+    width: 335px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
@@ -551,14 +564,16 @@ body
 1) Fort de Pomègues*/
 .milieu-page .activités-marseille .activités .div-activités .colonne1
 {
-    height: 500px;
-    width: 390px;
+    height: auto;
+    width: 335px;
     justify-content: space-around;
-    align-items: center;
     padding-left: 40px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .a
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues
 {
     text-decoration: none;
 }
@@ -573,7 +588,7 @@ body
 .milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .image-card
 {
     height: 240px;
-    width: 390px;
+    width: 335px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -592,8 +607,19 @@ body
     left: 20px; top: 20px;
 }
 
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .card-body .card-titre:hover
+{
+    color: #0065FC;
+}
+
 /* Îles du Frioul*/
-.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .a
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul
+{
+    margin-top: 5%;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul
 {
     text-decoration: none;
 }
@@ -608,7 +634,7 @@ body
 .milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card .image-card
 {
     height: 200px;
-    width: 390px;
+    width: 335px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -627,12 +653,17 @@ body
     left: 20px; top: 20px;
 }
 
+.milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card .card-body .card-titre:hover
+{
+    color: #0065FC;
+}
+
 /* Ci-dessous CSS pour le Parc National des Calanques*/
 
 .milieu-page .activités-marseille .activités .div-activités .calanques
 {
     height: 570px;
-    width: 390px;
+    width: 335px;
     border: 1px lightgray solid;
     border-radius: 20px 20px 20px 20px;
     object-fit: cover;
@@ -648,7 +679,7 @@ body
 .milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card
 {
     height: 500px;
-    width: 420px;
+    width: 335px;
     object-fit: cover;
 }
 
@@ -667,10 +698,113 @@ body
     left: 20px; top: 20px;
 }
 
+.milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card .card-body .card-titre:hover
+{
+    color: #0065FC;
+}
+
 .milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card .image-card
 {
     height: 500px;
-    width: 390px;
+    width: 335px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
+}
+
+/* Ci-dessous la seconde div intitulé colonne2 et qui englobera les "Notre-Dame-de-la-Garde" et "Parc Longchamp"
+1) Notre-Dame-de-la-Garde*/
+.milieu-page .activités-marseille .activités .div-activités .colonne2
+{
+    height: auto;
+    width: 335px;
+    justify-content: space-around;
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde
+{
+    text-decoration: none;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde .bloc-card
+{
+    border: 1px lightgray solid;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(243, 240, 240) 1px 10px 15px 1px;
+} 
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde .bloc-card .image-card
+{
+    height: 240px;
+    width: 335px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde .bloc-card .card-body
+{
+    height: 50px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde .bloc-card .card-body .card-titre
+{
+    color: black;
+    position: relative;
+    left: 20px; top: 20px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde .bloc-card .card-body .card-titre:hover
+{
+    color: #0065FC;
+}
+
+/* Parc Longchamp*/
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp
+{
+    margin-top: 5%;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp
+{
+    text-decoration: none;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp .bloc-card
+{
+    border: 1px lightgray solid;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(243, 240, 240) 1px 10px 15px 1px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp .bloc-card .image-card
+{
+    height: 200px;
+    width: 335px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp .bloc-card .card-body
+{
+    height: 50px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp .bloc-card .card-body .card-titre
+{
+    color: black;
+    position: relative;
+    left: 20px; top: 20px;
+}
+
+.milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp .bloc-card .card-body .card-titre:hover
+{
+    color: #0065FC;
 }

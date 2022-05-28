@@ -280,6 +280,21 @@
         display: block;
         width: auto;
     }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne1
+    {
+        padding-left: 0px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .calanques
+    {
+        margin-left: 0px;
+    }
+    
+    .milieu-page .activités-marseille .activités .div-activités .colonne2
+    {
+        padding-left: 0px;
+    }
 }
 
 /* HEADER : Ci-dessous propriétés CSS pour Tablette avec Media queries */
