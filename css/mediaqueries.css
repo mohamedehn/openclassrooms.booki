@@ -1,6 +1,65 @@
+/* HEADER : Ci-dessous propriétés CSS pour Tablette avec Media queries */
+
+@media all and (min-width: 769px) and (max-width: 992px)
+
+{
+  .milieu-page .logements
+  {
+    display: block;
+  }
+
+  .milieu-page .logements .cartes 
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .milieu-page .logements .cartes
+  {
+    width: 100%;
+    margin: auto;
+    clear: both;
+    height: 100%;
+  }
+
+  .milieu-page .logements .populaires
+  {
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  .milieu-page .logements .populaires .start-populaire
+  {
+    width: 98%;
+  }
+
+  .milieu-page .logements .populaires .logements-populaires
+  {
+    width: 98%;
+  }
+
+  .milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires .bloc-card-populaires
+  {
+    margin-top: 50px;
+  }
+
+  .milieu-page .activités-marseille .activités .div-activités
+  {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .milieu-page .activités-marseille .activités .div-activités .block-activite
+  {
+    max-width: 430px;
+  }
+  
+}
+
+
 /* HEADER : Ci-dessous propriétés CSS pour MOBILE avec Media queries */
 
-@media all and (min-width: 1px) and (max-width: 768px)
+@media all and (max-width: 768px)
 
 {
     /* Ci-dessous le header : logo, barre de navigation et titres*/
@@ -200,28 +259,40 @@
         background-color: white;
         border: white;
         margin-top: 30px;
-        margin-left: 0px;
         padding-left: 0px;
         padding-top: 0px;
+        flex-basis: 100%;
+        width: 90%;
     }
 
     /*Ci-dessous partie "les plus populaires"*/
 
     .milieu-page .logements .cartes .titrehébergements
     {
-        width: 90%;
+        width: 95%;
         flex-basis: auto;
     }
 
     .milieu-page .logements .cartes .hébergements
     {
         height: auto;
+        margin-top: 5%;
+        display: block;
+        width: 100%;
     }
 
     .mobile-shadow
     {
     margin: 2%;
     box-shadow: 0px 2px 22px 2px lightgray;
+    }
+
+    .milieu-page .logements .cartes .hébergements .div-card
+    {
+        width: 100%;
+        height: 260px;
+        margin-bottom: 40px;
+        margin: 0px;
     }
 
     .milieu-page .logements .cartes .afficher-plus
@@ -235,8 +306,9 @@
     {
         margin:auto;
         padding: auto;
+        padding-bottom: 50px;
         width: 100%;
-        height: 655px;
+        height: 100%;
         margin-top: 30px;
     }
 
@@ -269,9 +341,28 @@
     }
 
     /*Ci-dessous CSS pour la partie Activités à Marseille*/
+
+    .milieu-page .activités-marseille
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        display: block;
+    }
+
     .milieu-page .activités-marseille .activités
     {
-        margin-left: auto;
+        margin: auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .milieu-page .activités-marseille .activités .titre-activités
+    {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 13px;
     }
 
     .milieu-page .activités-marseille .activités .div-activités
@@ -279,28 +370,120 @@
         flex-direction: column;
         display: block;
         width: auto;
+        margin: auto;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .vieux-port
+    {
+        height : 200px;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .block-activite
+    {
+        height : 200px;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .card .image-card
+    {
+        height: 150px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card
+    {
+        height: 200px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .card .card-body
+    {
+        height: 50px;
     }
 
     .milieu-page .activités-marseille .activités .div-activités .colonne1
     {
         padding-left: 0px;
+        margin-top: 8%;
+        height: 460px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .card .image-card
+    {
+        height: 150px
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul
+    {
+        margin-top: 0%;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card .image-card
+    {
+        height: 150px;
     }
 
     .milieu-page .activités-marseille .activités .div-activités .calanques
     {
         margin-left: 0px;
+        height: 200px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card
+    {
+        height: 200px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card .card .image-card
+    {
+        height: 150px;
     }
     
     .milieu-page .activités-marseille .activités .div-activités .colonne2
     {
         padding-left: 0px;
+        margin-top: 8%;
     }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne2
+    {
+        padding-left: 0px;
+        margin-top: 4%;
+        height: 460px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-carte .bloc-card .card .image-card
+    {
+        height: 150px
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde
+    {
+        margin-top: 0%;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde .bloc-card .image-card
+    {
+        height: 150px;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-carte .bloc-card .card .image-card
+    {
+        height: 150px
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp
+    {
+        margin-top: 0%;
+    }
+
+    .milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp .bloc-card .image-card
+    {
+        height: 150px;
+    }
+
 }
 
-/* HEADER : Ci-dessous propriétés CSS pour Tablette avec Media queries */
-
-@media all and (min-width: 769px) and (max-width: 992px)
-
-{
-  
-}
