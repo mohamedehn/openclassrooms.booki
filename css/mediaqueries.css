@@ -43,15 +43,21 @@
     margin-top: 50px;
   }
 
-  .milieu-page .activités-marseille .activités .div-activités
+  .milieu-page .activites-marseille .activites .div-activites
   {
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  .milieu-page .activités-marseille .activités .div-activités .block-activite
+  .milieu-page .activites-marseille .activites .div-activites .block-activite
   {
     max-width: 430px;
+    margin-top: 5%;
+  }
+
+  .milieu-page .activites-marseille .activites .div-activites .block-activite .garde
+  {
+    margin-top: 9%;
   }
   
 }
@@ -267,13 +273,13 @@
 
     /*Ci-dessous partie "les plus populaires"*/
 
-    .milieu-page .logements .cartes .titrehébergements
+    .milieu-page .logements .cartes .titrehebergements
     {
         width: 95%;
         flex-basis: auto;
     }
 
-    .milieu-page .logements .cartes .hébergements
+    .milieu-page .logements .cartes .hebergements
     {
         height: auto;
         margin-top: 5%;
@@ -287,18 +293,19 @@
     box-shadow: 0px 2px 22px 2px lightgray;
     }
 
-    .milieu-page .logements .cartes .hébergements .div-card
+    .milieu-page .logements .cartes .hebergements .div-card
     {
         width: 100%;
         height: 260px;
         margin-bottom: 40px;
         margin: 0px;
+        margin-bottom: 20px;
     }
 
     .milieu-page .logements .cartes .afficher-plus
     {
         flex-basis: auto;
-        width: 90%;
+        width: 95%;
         padding-top: 10%;
     }
 
@@ -342,7 +349,7 @@
 
     /*Ci-dessous CSS pour la partie Activités à Marseille*/
 
-    .milieu-page .activités-marseille
+    .milieu-page .activites-marseille
     {
         display: flex;
         flex-wrap: wrap;
@@ -350,7 +357,7 @@
         display: block;
     }
 
-    .milieu-page .activités-marseille .activités
+    .milieu-page .activites-marseille .activites
     {
         margin: auto;
         justify-content: space-evenly;
@@ -358,14 +365,16 @@
         width: auto;
     }
 
-    .milieu-page .activités-marseille .activités .titre-activités
+    .milieu-page .activites-marseille .activites .titre-activites
     {
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: 13px;
+        flex-basis: auto;
+        width: 80%;
+        padding-top: 4%;
+        padding-left: 8%;
+        padding-bottom: 3%;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités
+    .milieu-page .activites-marseille .activites .div-activites
     {
         flex-direction: column;
         display: block;
@@ -375,114 +384,125 @@
         width: auto;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .vieux-port
+    .milieu-page .activites-marseille .activites .div-activites .vieux-port
     {
         height : 200px;
         max-width: 90%;
         margin: auto;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .block-activite
+    .milieu-page .activites-marseille .activites .div-activites .block-activite
     {
         height : 200px;
         max-width: 90%;
         margin: auto;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .card .image-card
+    .milieu-page .activites-marseille .activites .div-activites .vieux-port .carte-vieux-port .bloc-card .card .image-card
     {
         height: 150px;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card
+    .milieu-page .activites-marseille .activites .div-activites .vieux-port .carte-vieux-port .bloc-card
     {
         height: 200px;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .vieux-port .carte-vieux-port .bloc-card .card .card-body
+    .milieu-page .activites-marseille .activites .div-activites .vieux-port .carte-vieux-port .bloc-card .card .card-body
     {
         height: 50px;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .colonne1
-    {
-        padding-left: 0px;
-        margin-top: 8%;
-        height: 460px;
-    }
-
-    .milieu-page .activités-marseille .activités .div-activités .colonne1 .pomègues .carte-pomègues .bloc-card .card .image-card
-    {
-        height: 150px
-    }
-
-    .milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul
-    {
-        margin-top: 0%;
-    }
-
-    .milieu-page .activités-marseille .activités .div-activités .colonne1 .frioul .carte-frioul .bloc-card .image-card
-    {
-        height: 150px;
-    }
-
-    .milieu-page .activités-marseille .activités .div-activités .calanques
-    {
-        margin-left: 0px;
-        height: 200px;
-    }
-
-    .milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card
-    {
-        height: 200px;
-    }
-
-    .milieu-page .activités-marseille .activités .div-activités .calanques .carte-calanques .bloc-card .card .image-card
-    {
-        height: 150px;
-    }
-    
-    .milieu-page .activités-marseille .activités .div-activités .colonne2
-    {
-        padding-left: 0px;
-        margin-top: 8%;
-    }
-
-    .milieu-page .activités-marseille .activités .div-activités .colonne2
+    .milieu-page .activites-marseille .activites .div-activites .colonne1
     {
         padding-left: 0px;
         margin-top: 4%;
         height: 460px;
+        display: grid;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-carte .bloc-card .card .image-card
+    .milieu-page .activites-marseille .activites .div-activites .colonne1 .pomegues .carte-pomegues .bloc-card .card .image-card
     {
         height: 150px
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde
+    .milieu-page .activites-marseille .activites .div-activites .colonne1 .frioul
     {
         margin-top: 0%;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-garde .bloc-card .image-card
+    .milieu-page .activites-marseille .activites .div-activites .colonne1 .frioul .carte-frioul .bloc-card .image-card
     {
         height: 150px;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .colonne2 .garde .carte-carte .bloc-card .card .image-card
+    .milieu-page .activites-marseille .activites .div-activites .calanques
+    {
+        height: 200px;
+    }
+
+    .milieu-page .activites-marseille .activites .div-activites .calanques .carte-calanques .bloc-card
+    {
+        height: 200px;
+    }
+
+    .milieu-page .activites-marseille .activites .div-activites .calanques .carte-calanques .bloc-card .card .image-card
+    {
+        height: 150px;
+    }
+    
+    .milieu-page .activites-marseille .activites .div-activites .colonne2
+    {
+        padding-left: 0px;
+        margin-top: 8%;
+    }
+
+    .milieu-page .activites-marseille .activites .div-activites .colonne2
+    {
+        padding-left: 0px;
+        margin-top: 2%;
+        height: 460px;
+        display: grid;
+    }
+
+    .milieu-page .activites-marseille .activites .div-activites .colonne2 .garde .carte-carte .bloc-card .card .image-card
     {
         height: 150px
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp
+    .milieu-page .activites-marseille .activites .div-activites .colonne2 .garde
     {
         margin-top: 0%;
     }
 
-    .milieu-page .activités-marseille .activités .div-activités .colonne2 .longchamp .carte-longchamp .bloc-card .image-card
+    .milieu-page .activites-marseille .activites .div-activites .colonne2 .garde .carte-garde .bloc-card .image-card
     {
         height: 150px;
+    }
+
+    .milieu-page .activites-marseille .activites .div-activites .colonne2 .garde .carte-carte .bloc-card .card .image-card
+    {
+        height: 150px
+    }
+
+    .milieu-page .activites-marseille .activites .div-activites .colonne2 .longchamp
+    {
+        margin-top: 0%;
+    }
+
+    .milieu-page .activites-marseille .activites .div-activites .colonne2 .longchamp .carte-longchamp .bloc-card .image-card
+    {
+        height: 150px;
+    }
+
+    .footer
+    {
+        height: 340px;
+    }
+
+    .footer .text-footer
+    {
+        flex-direction: column;
     }
 
 }
