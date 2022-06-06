@@ -616,7 +616,7 @@ body
 
 .milieu-page .activites-marseille .activites .div-activites .colonne1 .frioul
 {
-    margin-top: 11%;
+    margin-top: 9%;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .colonne1 .frioul .carte-frioul
@@ -760,7 +760,7 @@ body
 
 .milieu-page .activites-marseille .activites .div-activites .colonne2 .longchamp
 {
-    margin-top: 11%;
+    margin-top: 9%;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .colonne2 .longchamp .carte-longchamp
@@ -811,7 +811,7 @@ body
     background-color: rgb(236, 233, 233);
     margin-top: 60px;
     width: 100%;
-    height: 140px;
+    height: 180px;
 }
 
 .footer .text-footer
@@ -855,4 +855,9 @@ body
     margin-top: 14px;
     color: grey;
     list-style-type: none;
+}
+
+.footer .text-footer .ul-footer li
+{
+    padding-bottom: 12px;
 }
