@@ -4,10 +4,10 @@
 
 {
     .header2
-    {
-        width: 90%;
-        margin: auto;
-    }
+  {
+    width: 100%;
+    margin: auto;
+  }
 
     .milieu-page .logements
   {
@@ -37,7 +37,7 @@
   {
     width: 100%;
     margin-left: 0px;
-    margin-top: 5%;
+    margin-top: 40px;
   }
   
   .milieu-page .logements .populaires .start-populaire
@@ -48,6 +48,11 @@
   .milieu-page .logements .populaires .logements-populaires
   {
     width: 98%;
+  }
+
+  .milieu-page .logements .populaires .logements-populaires .card-populaires
+  {
+      height: 145px;
   }
 
   .milieu-page .logements .populaires .logements-populaires .card-populaires .liencarte-populaires .bloc-card-populaires
@@ -64,6 +69,20 @@
   .milieu-page .activites-marseille .activites .div-activites .block-activite
   {
     margin-top: 5%;
+  }
+
+  .milieu-page .activites-marseille .activites .div-activites .calanques .carte-calanques .bloc-card .card-body .card-titre
+  {
+    position: relative;
+    left: 20px;
+    top: 5px;
+  }
+
+  .milieu-page .activites-marseille .activites .div-activites .colonne2 .garde .carte-garde .bloc-card .card-body .card-titre
+  {
+    position: relative;
+    left: 2px;
+    top: 5px;
   }
   
 }

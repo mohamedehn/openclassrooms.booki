@@ -40,6 +40,7 @@ body
 .header1 .logobooki 
 {
     width: 85px;
+    padding-left: 10px;
 }
 
 .header1 .navheader a
@@ -398,7 +399,7 @@ body
     border-radius: 10px;
     width: calc(30% - 40px);
     height: 720px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .milieu-page .logements .populaires .start-populaire 
@@ -458,10 +459,15 @@ body
     object-fit: cover;
 }
 
+.milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires
+{
+    padding-left: 9px;
+}
+
 .milieu-page .logements .populaires .logements-populaires .card-populaires .card-body-populaires .text-card-populaires .card-titre-populaires
 {
     padding-left: 15px;
-    padding-top: 8%;
+    padding-top: 13px;
     color: black;
     font-weight: bolder;
 }
@@ -554,7 +560,7 @@ body
     text-decoration: none;
     color: black;
     position: relative;
-    left: 20px; top: 20px;
+    left: 20px; top: 15px;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .vieux-port .carte-vieux-port .bloc-card .card-body .card-titre:hover
@@ -564,7 +570,7 @@ body
 
 .milieu-page .activites-marseille .activites .div-activites .vieux-port .carte-vieux-port .bloc-card .image-card
 {
-    height: 540px;
+    height: 547px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -608,7 +614,7 @@ body
 {
     color: black;
     position: relative;
-    left: 20px; top: 20px;
+    left: 20px; top: 15px;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .colonne1 .pomegues .carte-pomegues .bloc-card .card-body .card-titre:hover
@@ -653,7 +659,7 @@ body
 {
     color: black;
     position: relative;
-    left: 20px; top: 20px;
+    left: 20px; top: 15px;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .colonne1 .frioul .carte-frioul .bloc-card .card-body .card-titre:hover
@@ -694,7 +700,7 @@ body
     text-decoration: none;
     color: black;
     position: relative;
-    left: 20px; top: 20px;
+    left: 20px; top: 15px;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .calanques .carte-calanques .bloc-card .card-body .card-titre h6
@@ -712,7 +718,7 @@ body
 
 .milieu-page .activites-marseille .activites .div-activites .calanques .carte-calanques .bloc-card .image-card
 {
-    height: 540px;
+    height: 547px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -757,7 +763,7 @@ body
 {
     color: black;
     position: relative;
-    left: 20px; top: 20px;
+    left: 20px; top: 15px;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .colonne2 .garde .carte-garde .bloc-card .card-body .card-titre:hover
@@ -802,7 +808,7 @@ body
 {
     color: black;
     position: relative;
-    left: 20px; top: 20px;
+    left: 20px; top: 15px;
 }
 
 .milieu-page .activites-marseille .activites .div-activites .colonne2 .longchamp .carte-longchamp .bloc-card .card-body .card-titre:hover
