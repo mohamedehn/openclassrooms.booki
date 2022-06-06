@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
    <title>Booki</title>
    <meta charset="UTF-8"/>
    <!-- Mise en place de la meta name viewport afin de paramétrer l'affichage sur mobile. Réglage auto sur l'échelle  réelle de l'écran + pas de zoom-->
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    <link rel="stylesheet" href="ccs/normalize.css"/>
    <link rel="stylesheet" href="css/style.css"/>
    <link rel="stylesheet" href="css/mediaqueries.css"/>
@@ -26,8 +26,8 @@
       <div class="header1 max-width">
          <img src="images/Booki.png" alt="logobooki" class="logobooki" />
          <nav class="navheader">
-            <a href="#" class="header-a">Hébergements</a>
-            <a href="#" class="header-a">Activités</a>
+            <a href="#hebergements" class="header-a">Hébergements</a>
+            <a href="#activites" class="header-a">Activités</a>
          </nav>
       </div>
       <div class="header2 max-width">
@@ -40,16 +40,14 @@
          <div class="barre-recherche">
             <!-- Ici nous indiquerons la fonction "rechercher" du site web-->
             <form method="post" action="traitement.php">
-               <p>
                   <div class="formulaire">
                      <div> <i class="fa-solid fa-location-dot"></i> </div>
                         <div> <input type="search" placeholder="Marseille, France" name="zonederecherche" id="ville" class="search" /> </div>
                         <div>
                         <input type="submit" value="Rechercher" class="searchbutton">
                         <span class="loupe"><i class="fa-solid fa-magnifying-glass"></i></span>
-                     </div>
+                        </div>
                   </div>
-               </p>
             </form>
          </div>
 
@@ -82,9 +80,9 @@
 
    <main class="milieu-page">
       <!-- Ci-dessous sera la section "Hébergements à Marseille" incluant le aside Les plus populaires" -->
-      <div class="logements max-width">
+      <div class="logements max-width" id="hebergements">
          <section class="cartes">
-            <h4 class="titrehebergements"> Hébergements à Marseille </h4>
+            <h3 class="titrehebergements"> Hébergements à Marseille </h3>
             <div class="hebergements">
                <div class="div-card mobile-shadow">
                   <a href="#" class="liencarte">
@@ -98,7 +96,7 @@
                         <div class="card-body">
                            <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Auberge La Cannebière</h6>
+                              <h4>Auberge La Cannebière</h4>
                            </div>
                            <!-- Prix -->
                            <div class="card-prix">
@@ -130,7 +128,7 @@
                         <div class="card-body">
                            <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Hôtel du port</h6>
+                              <h4>Hôtel du port</h4>
                            </div>
                            <!-- Prix -->
                            <div class="card-prix">
@@ -162,7 +160,7 @@
                         <div class="card-body">
                            <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Hôtel Les mouettes</h6>
+                              <h4>Hôtel Les mouettes</h4>
                            </div>
                            <!-- Prix -->
                            <div class="card-prix">
@@ -194,7 +192,7 @@
                         <div class="card-body">
                            <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Hôtel de la mer</h6>
+                              <h4>Hôtel de la mer</h4>
                            </div>
                            <!-- Prix -->
                            <div class="card-prix">
@@ -226,7 +224,7 @@
                         <div class="card-body">
                            <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Auberge Le Panier</h6>
+                              <h4>Auberge Le Panier</h4>
                            </div>
                            <!-- Prix -->
                            <div class="card-prix">
@@ -258,7 +256,7 @@
                         <div class="card-body">
                            <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Hôtel chez Amina</h6>
+                              <h4>Hôtel chez Amina</h4>
                            </div>
                            <!-- Prix -->
                            <div class="card-prix">
@@ -286,8 +284,8 @@
 
          <aside class="populaires">
             <div class="start-populaire">
-               <h4 class="titrepopulaire"> Les plus populaires </h4>
-               <div><i class="fa-solid fa-star"></i></div>
+               <h3 class="titrepopulaire"> Les plus populaires </h3>
+               <div class="icone-populaire"><i class="fa-solid fa-star"></i></div>
             </div> 
             <div class="logements-populaires">
                <div class="card-populaires">
@@ -304,7 +302,7 @@
                            <div class="text-card-populaires">
                               <!-- Titre -->
                               <div class="card-titre-populaires">
-                                 <h6>Hôtel Le soleil du matin</h6>
+                                 <h4>Hôtel Le soleil du matin</h4>
                               </div>
 
                               <!-- Prix -->
@@ -339,7 +337,7 @@
                            <div class="text-card-populaires">
                               <!-- Titre -->
                               <div class="card-titre-populaires">
-                                 <h6>Hôtel Le soleil du matin</h6>
+                                 <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                               </div>
 
                               <!-- Prix -->
@@ -374,7 +372,7 @@
                            <div class="text-card-populaires">
                               <!-- Titre -->
                               <div class="card-titre-populaires">
-                                 <h6>Hôtel Le soleil du matin</h6>
+                                 <h4>Hôtel Tout bleu Blanc</h4>
                               </div>
 
                               <!-- Prix -->
@@ -398,12 +396,11 @@
             </div>
          </aside>
       </div>
-      </div>
       <!-- Ci-dessous sera la section "Activités à Marseille"-->
-      <section class="activites-marseille max-width">
+      <section class="activites-marseille max-width" id="activites">
          <div class="activites max-width">
             <div class="titre-activites"> 
-               <h4>Activités à Marseille</h4>
+               <h3>Activités à Marseille</h3>
             </div>
             <div class="div-activites">
                <div class="vieux-port block-activite">
@@ -418,7 +415,7 @@
                         <div class="card-body">
                               <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Vieux Port</h6>
+                              <h4>Vieux Port</h4>
                            </div>
                         </div>
                      </div>
@@ -437,7 +434,7 @@
                         <div class="card-body">
                               <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Fort de Pomègues</h6>
+                              <h4>Fort de Pomègues</h4>
                            </div>
                         </div>
                      </div>
@@ -455,7 +452,7 @@
                         <div class="card-body">
                               <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Îles du Frioul</h6>
+                              <h4>Îles du Frioul</h4>
                            </div>
                         </div>
                      </div>
@@ -474,7 +471,7 @@
                         <div class="card-body">
                               <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Parc National des Calanques</h6>
+                              <h4>Parc National des Calanques</h4>
                            </div>
                         </div>
                      </div>
@@ -493,7 +490,7 @@
                         <div class="card-body">
                               <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Notre-Dame-de-la-Garde</h6>
+                              <h4>Notre-Dame-de-la-Garde</h4>
                            </div>
                         </div>
                      </div>
@@ -511,7 +508,7 @@
                         <div class="card-body">
                               <!-- Titre -->
                            <div class="card-titre">
-                              <h6>Parc Longchamp</h6>
+                              <h4>Parc Longchamp</h4>
                            </div>
                         </div>
                      </div>
@@ -525,7 +522,7 @@
    </main>
 
    <footer class="footer">
-      <div class="text-footer">
+      <div class="text-footer max-width">
          <div class="div-footer a-propos">
             <a href="" class="lien-footer"> 
                <div class="titre-footer">A propos
