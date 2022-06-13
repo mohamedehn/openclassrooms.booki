@@ -580,7 +580,7 @@ body
 1) Fort de Pomègues*/
 .milieu-page .activites-marseille .activites .div-activites .colonne1
 {
-    height: 570px;
+    height: var(--height_activite_marseille);
     flex-wrap: wrap;
 }
 
